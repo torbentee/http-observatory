@@ -9,7 +9,6 @@ env:
   IMAGE_NAME: ${{ github.repository }}/http-observatory
 
 jobs:
-  needs: test
   docker:
     runs-on: ubuntu-latest
 
